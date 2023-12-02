@@ -32,22 +32,26 @@ const App = () => {
   };
 
   return (
-    <div className="main-box">
-      <h1>Cyberbullying Detection System</h1>
-      <input
-        type="text"
-        id="textInput"
-        placeholder="Enter text..."
-        value={textInput}
-        onChange={handleInputChange}
-        style={{ width: '45%'}}
-      />
-      <button id="detectButton" onClick={handleDetectClick}>
+  <div className="main-container" style={{ background: 'blue', height: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+    <h1 style={{ color: 'white' }}>Cyberbullying Detection System</h1>
+    <input
+      type="text"
+      id="textInput"
+      placeholder="Enter text..."
+      value={textInput}
+      onChange={handleInputChange}
+      style={{ width: '45%', margin: '10px', padding: '5px' }}
+    />
+    <button
+      id="detectButton"
+      onClick={handleDetectClick}
+      style={{ background: 'yellow', padding: '8px', cursor: 'pointer' }}
+    >
+      Detect
+    </button>
+  </div>
+);
 
-        Detect
-      </button>
-    </div>
-  );
 };
 
 export default App;
