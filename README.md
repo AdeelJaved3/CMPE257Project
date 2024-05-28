@@ -39,7 +39,7 @@ Here are the steps for launching the web application.
    ```
 6. Launching the backend
    ```
-   export FLASK_APP=application.py
+   export FLASK_APP=server.py
    export FLASK_ENV=development
    flask run
    ```
