@@ -47,6 +47,10 @@ Here are the steps for launching the web application.
 
 ## How to tweak this project for your own uses
 
+1. Adopt the preprocessing logic to clean text, remove stop words and balance multiple classes
+2. Adopt the CountVectorizer and/or TF-IDF feature extraction techniques used with SVM
+3. Adopt RoBERTa, SVM, or XGBoost implementation for your own cyberbullying dataset
+
 ## Find a bug?
 
 If you have found an issue and would like to improve the project, please submit an issue using the issue tab above. If you would like to sumbit a PR with a fix, reference the issue you created.
