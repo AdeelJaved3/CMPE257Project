@@ -28,6 +28,7 @@ Here are the steps for launching the web application.
    ```
 5. Launch the backend
    ```
+   cd backend
    pip3 install -r requirements.txt
    python3 -m venv .venv
    source .venv/bin/activate (for MAC)
