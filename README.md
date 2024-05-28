@@ -21,5 +21,18 @@ Here are the steps for launching the web application.
    cd CMPE257Project
    npm install
    ```
+4. Launch the frontend
+   ```sh
+   cd frontend
+   npm start
+   ```
+5. Launch the backend
+   ```
+   pip3 install -r requirements.txt
+   python3 -m venv .venv
+   source .venv/bin/activate (for MAC)
 
+   OR
 
+   .venv/Scripts/activate (for Windows)  
+   ```
