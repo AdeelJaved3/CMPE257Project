@@ -26,14 +26,26 @@ Here are the steps for launching the web application.
    cd frontend
    npm start
    ```
-5. Launch the backend
+5. Activating the virtual environment
    ```
    cd backend
    pip3 install -r requirements.txt
    python3 -m venv .venv
    source .venv/bin/activate (for MAC)
-
+   
    OR
 
    .venv/Scripts/activate (for Windows)  
    ```
+6. Launching the backend
+   ```
+   export FLASK_APP=application.py
+   export FLASK_ENV=development
+   flask run
+   ```
+   
+
+## How to tweak this project for your own uses
+
+
+
