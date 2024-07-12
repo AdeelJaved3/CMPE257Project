@@ -18,12 +18,11 @@ Here are the steps for launching the web application.
    ```
 3. Install NPM packages
    ```sh
-   cd CMPE257Project
+   cd CMPE257Project/frontend
    npm install
    ```
 4. Launch the frontend
    ```sh
-   cd frontend
    npm start
    ```
 5. Activating the virtual environment
