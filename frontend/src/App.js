@@ -17,7 +17,7 @@ const App = () => {
         return;
       }
 
-      const response = await fetch('/test-model', {
+      const response = await fetch(`${process.env.SERVER_URL}/test-model`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
